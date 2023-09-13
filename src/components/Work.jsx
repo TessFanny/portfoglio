@@ -3,35 +3,35 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         name: "Html",
-        img: ''
+        img: 'src/assets/images/html.png'
     },
     {
         name: "Css",
-        img: ''
+        img: 'src/assets/images/css.png'
     },
     {
         name: "Javascript",
-        img: ''
+        img: 'src/assets/images/js.png'
     },
     {
         name: "NodeJs",
-        img: ''
+        img: 'src/assets/images/nodejs.png'
     },
     {
         name: "PostgreSql",
-        img: ''
+        img: 'src/assets/images/postgresql.png'
     },
     {
         name: "Express",
-        img: ''
+        img: 'src/assets/images/express.png'
     },
     {
         name: "React",
-        img: ''
+        img: 'src/assets/images/react.png'
     },
     {
         name: "Git",
-        img: ''
+        img: 'src/assets/images/git.png'
     },
   
 
@@ -40,7 +40,7 @@ const Work = () => {
   return (
     <div
       id="competences"
-      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729] "
+      className=" group max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729] "
     >
       <h1 className=" text-3xl font-bold text-center text-[#50b0e5] m-auto justify-center items-center">
         Stack technique
@@ -50,10 +50,7 @@ const Work = () => {
           <WorkItem key={idx} item={item} />
         ))}
       </div>
-      <div className>
-      <h2 className=" text-white text-center text-2xl font-semibold w-full">Qualités:</h2>
-
-      </div>
+      
     </div>
   );
 };

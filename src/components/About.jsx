@@ -7,10 +7,8 @@ const About = () => {
         A Propos
       </h1>
       <p className=" text-center py-8 text-white">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nisi
-        facere dolorum cupiditate quae laudantium vel et laboriosam quidem
-        suscipit facilis, ad, quod, totam harum? Odit eius rem autem
-        reprehenderit!
+      Apprendre de nouvelles compétences ne me fait pas peur, surtout quand je peux les utiliser pour augmenter mes capacités et par la suite apporter mon savoir-faire aux diverses entreprises avec lesquelles j'aurais l'immense plaisir de collaborer. 
+       je n'ai qu'une hâte celle de rejoindre votre équipe et renforcer mes compétences...
       </p>
     </div>
   );

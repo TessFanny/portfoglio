@@ -35,7 +35,7 @@ const Main = () => {
             />
           </h2>
           <div className=" mt-8 flex gap-5" >
-            <a href="" target="_blank" className=" bg-transparent text-[#50b0e5] border-[1px] border-[#50b0e5] px-8 py-2 text-md font-semibold rounded-md">
+            <a href="" target="_blank" download='src/assets/images/cv_web_dev_Tessikoue.pdf' className=" bg-transparent text-[#50b0e5] border-[1px] border-[#50b0e5] px-8 py-2 text-md font-semibold rounded-md">
              Télécharger CV
             </a>
             <a href="#contact"  className=" text-[#181729] bg-[#50b0e5] border-[1px] border-none px-8 py-2 text-md font-semibold rounded-md">

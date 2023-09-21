@@ -26,7 +26,7 @@ const Projects = () => {
       id="projects"
       className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729]"
     >
-      <h1 className=" text-4xl font-bold text-center text-[#50b0e5]">
+      <h1 className=" text-4xl font-bold text-center text-emerald-600">
         Projets
       </h1>
       <p className=" text-center py-8 text-white">

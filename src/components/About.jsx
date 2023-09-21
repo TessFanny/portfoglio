@@ -1,15 +1,16 @@
 import React from "react";
-
+import { useState } from "react";
+import { motion } from "framer-motion"
 const About = () => {
+const [move, setMove] = useState(false)
   return (
     <div id="about" className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729]">
-      <h1 className=" text-4xl font-bold text-center text-[#50b0e5]">
+      <h1 className=" text-4xl font-bold text-center text-emerald-600">
         A Propos
       </h1>
-      <p className=" text-center py-8 text-white">
-      Apprendre de nouvelles compétences ne me fait pas peur, surtout quand je peux les utiliser pour augmenter mes capacités et par la suite apporter mon savoir-faire aux diverses entreprises avec lesquelles j'aurais l'immense plaisir de collaborer. 
-       je n'ai qu'une hâte celle de rejoindre votre équipe et renforcer mes compétences...
-      </p>
+      
+          <motion.div className=" h-[100px] w-[100px] bg-slate-500 rounded-md" animate={{ x: move ? 200 : 0  }} onClick={()=>{setMove(!move)}}  whileHover={{ rotate: 360 }}></motion.div>
+        
     </div>
   );
 };

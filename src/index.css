@@ -2,9 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@layer components{
+    .nav-element-sm{
+       @apply flex justify-center items-center font-semibold  text-white cursor-pointer gap-x-3  ml-10 text-2xl 
+    }
+    .nav-element{
+        @apply text-[#f3f3f7] shadow-gray-400 font-semibold text-center cursor-pointer hover:text-emerald-600 hover:scale-110 ease-in duration-300 
+     }
+     .align-element{
+        @apply mx-auto max-w-7xl px-8 text-white
+     }
+
+}
+ 
 *{
     scroll-behavior: smooth;
 }
 body{
     background-color: #181729;
+    font-family: 'Roboto', sans-serif;
 }

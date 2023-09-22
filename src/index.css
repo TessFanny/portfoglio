@@ -6,21 +6,33 @@
 
 @layer components{
     .nav-element-sm{
-       @apply flex justify-center items-center font-semibold  text-white cursor-pointer gap-x-3  ml-10 text-2xl 
+       @apply flex justify-center items-center  text-white cursor-pointer gap-x-3  ml-10 text-2xl capitalize
     }
     .nav-element{
-        @apply text-[#f3f3f7] shadow-gray-400 font-semibold text-center cursor-pointer hover:text-emerald-600 hover:scale-110 ease-in duration-300 
+        @apply text-[#f3f3f7] shadow-gray-400  text-center cursor-pointer hover:text-emerald-600 hover:scale-110 ease-in duration-300 capitalize
      }
      .align-element{
         @apply mx-auto max-w-7xl px-8 text-white
      }
+     .icon-element{
+        @apply h-20 w-20 text-emerald-500 m-auto hover:animate-bounce shadow-sm shadow-emerald-500 
+     }
+     .link-main{
+        @apply bg-emerald-600 w-full md:w-[15%]  md:min-w-[10rem] text-lg rounded-md text-center py-1 hover:bg-slate-500 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out capitalize
+     }
 
 }
  
+html{
+    height: 100%;
+}
 *{
     scroll-behavior: smooth;
 }
 body{
     background-color: #181729;
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }

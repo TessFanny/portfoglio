@@ -26,7 +26,7 @@ const Main = () => {
       <div className=" align-element grid md:grid-cols-2 items-center gap-8">
         <article>
           <h1 className=" text-5xl font-bold tracking-wider text-emerald-600">
-            Tessikoue Fanny
+            Tessikoue Fanny 
           </h1>
           <p className=" mt-4 text-3xl text-white capitalize">
             Développeuse
@@ -63,7 +63,7 @@ const Main = () => {
             significative aux projets sur lesquels je travaille.
           </p>
           <div className=" flex gap-x-4 mt-10">
-            <a href="#">
+            <a href="#" >
               <FaGithubSquare
                 color="#059669"
                 size={40}
@@ -85,19 +85,31 @@ const Main = () => {
               />
             </a>
             <a
+            href=""
               target="_blank"
               download="src/assets/images/cv_web_dev_Tessikoue.pdf"
-              className=" bg-transparent text-emerald-600 border-[1px] border-emerald-600 px-4 py-2 text-md font-semibold rounded-md hover:bg-emerald-600 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out"
+              className=" bg-transparent text-emerald-600 border-[1px] border-emerald-600 px-4 py-2 text-md font-semibold rounded-md hover:bg-emerald-600 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out cursor-pointer"
             >
               Télécharger CV
             </a>
           </div>
+          <div className=" flex flex-col md:flex-row justify-between items-center gap-4 my-8">
+            <Link to="/projects" className="link-main ">
+              Voir mes projets
+            </Link>
+            <Link to="/about" className="link-main">
+              à propos de moi
+            </Link>
+            <Link to="/contact" className="link-main">
+              Me contacter
+            </Link>
+          </div>
         </article>
         <article className=" hidden md:block">
           <img
-            src="src/assets/images/codingSVG.svg"
+            src="src/assets/images/main.svg"
             alt=""
-            className="h-[30rem] mx-auto pb-28"
+            className="h-[35rem] mx-auto pb-28"
           />
         </article>
       </div>

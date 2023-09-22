@@ -4,9 +4,10 @@ import codeImg from "../assets/code_img.jfif";
 import coding from "../assets/coding.jfif";
 import images from "../assets/images.jfif";
 import work from "../assets/work.jfif";
+import SectionTitle from "./SectionTitle";
 const Projects = () => {
   const data = [
-    {
+    { index:1,
       title: "Bug tracker",
       link: "https://github.com/TessFanny/bug-tracker",
       description:
@@ -14,31 +15,30 @@ const Projects = () => {
       img: "src/assets/coding.jfif",
     },
     {
-      title: "DevBoard",
+      index:2,
+      title: "Portfoglio",
+      link: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
+      description:
+        "Le projet consiste à créer un tableau de bord pour les développeurs, qui leur fournira une aide pratique pour gérer leur veille technologique",
+      img: "src/assets/code_img.jfif",
+    },
+    {
+      index:3,
+      title: "Portfoglio",
       link: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
       description:
         "Le projet consiste à créer un tableau de bord pour les développeurs, qui leur fournira une aide pratique pour gérer leur veille technologique",
       img: "src/assets/code_img.jfif",
     },
   ];
-  return (
-    <div
-      id="projects"
-      className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729]"
-    >
-      <h1 className=" text-4xl font-bold text-center text-emerald-600">
-        Projets
-      </h1>
-      <p className=" text-center py-8 text-white">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique nisi
-        facere dolorum cupiditate quae laudantium vel et laboriosam quidem
-        suscipit facilis, ad, quod, totam harum? Odit eius rem autem
-        reprehenderit!
-      </p>
 
-      <div className="grid sm:grid-cols-2 gap-12">
+  return (
+    <div className="py-20 align-element">
+      <SectionTitle text=" Mes projets" />
+    
+      <div className="grid gap-8 md:px-20  py-5">
         {data.map((item, idx) => (
-          <ProjectItem key={idx} item={item} />
+          <ProjectItem key={idx} item={item}  />
         ))}
       </div>
     </div>

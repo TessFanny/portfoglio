@@ -1,17 +1,39 @@
 import React from "react";
 import { useState } from "react";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import SectionTitle from "./SectionTitle";
 const About = () => {
-const [move, setMove] = useState(false)
   return (
-    <div id="about" className=" max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-[#181729]">
-      <h1 className=" text-4xl font-bold text-center text-emerald-600">
-        A Propos
-      </h1>
-      
-          <motion.div className=" h-[100px] w-[100px] bg-slate-500 rounded-md" animate={{ x: move ? 200 : 0  }} onClick={()=>{setMove(!move)}}  whileHover={{ rotate: 360 }}></motion.div>
+    <motion.section
+      className="py-20 align-element"
+      initial={{ opacity: 0, scale: 0 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+    >
+      <SectionTitle text="à propos" />
+      <div className=" align-element grid md:grid-cols-2 items-center gap-16">
         
-    </div>
+        <article>
+          <p className=" text-white mt-8 leading-loose">
+          
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
+            quaerat id sint veniam non voluptate excepturi aspernatur
+            dignissimos eius. Totam!
+          </p>
+          <p>
+           
+            Je suis extremement motivée et j'ai hâte de mettre à profit mon
+            expérience et mes compétences au service de mes futurs
+            collaborateurs
+          </p>
+        </article>
+        <img
+          src="src/assets/images/about.svg"
+          className=" w-full h-64 md:h-full"
+        />
+      </div>
+    </motion.section>
   );
 };
 

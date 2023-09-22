@@ -7,6 +7,7 @@ import {
   AiOutlineMail,
   AiOutlineClose,
 } from "react-icons/ai";
+import {FaBrain} from "react-icons/fa"
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
@@ -47,10 +48,15 @@ const Navbar = () => {
               Accueil
             </NavLink>
           </li>
-
           <li className="nav-element-sm">
             <BsPerson size={30} />
             <NavLink onClick={handleNav} to="/about">
+              à Propos
+            </NavLink>
+          </li>
+          <li className="nav-element-sm">
+            <FaBrain size={30} />
+            <NavLink onClick={handleNav} to="/skills">
               Compétences
             </NavLink>
           </li>
@@ -58,7 +64,7 @@ const Navbar = () => {
           <li className="nav-element-sm">
             <AiOutlineProject size={30} />
             <NavLink onClick={handleNav} to="projects">
-              Mes Projects
+              Mes Projets
             </NavLink>
           </li>
 
@@ -78,10 +84,13 @@ const Navbar = () => {
             <NavLink to="/">Accueil</NavLink>
           </li>
           <li className="nav-element">
+            <NavLink to="/about">à propos</NavLink>
+          </li>
+          <li className="nav-element">
             <NavLink to="/skills">Compétences</NavLink>
           </li>
           <li className="nav-element">
-            <NavLink to="/projects">Mes Projects</NavLink>
+            <NavLink to="/projects">Mes Projets</NavLink>
           </li>
           <li className="nav-element">
             <NavLink to="/contact">Contact</NavLink>

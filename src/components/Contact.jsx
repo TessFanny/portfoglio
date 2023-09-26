@@ -7,7 +7,7 @@ import { SendEmail } from "./SendEmail";
 const Contact = () => {
   return (
     <motion.section
-      className="py-20 align-element"
+      className="py-20 align-element h-screen"
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}

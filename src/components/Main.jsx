@@ -25,10 +25,10 @@ const Main = () => {
     >
       <div className=" align-element grid md:grid-cols-2 items-center gap-8">
         <article>
-          <h1 className=" text-5xl font-bold tracking-wider text-emerald-600">
+          <h1 className=" text-4xl font-bold tracking-wider text-emerald-600">
             Tessikoue Fanny 
           </h1>
-          <p className=" mt-4 text-3xl text-white capitalize">
+          <p className=" mt-4 text-2xl text-white capitalize">
             Développeuse
             <TypeAnimation
               sequence={[
@@ -48,7 +48,7 @@ const Main = () => {
               wrapper="div"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: ".9em", paddingLeft: "5px", color: "#059669" }}
+              style={{ fontSize: ".9em", paddingLeft: "5px", color: "rgb(234 179 8)" }}
             />
           </p>
 
@@ -87,7 +87,7 @@ const Main = () => {
             <a
             href=""
               target="_blank"
-              download="src/assets/images/cv_web_dev_Tessikoue.pdf"
+              download="src/assets/images/CV_Tessikoue_Fanny.pdf"
               className=" bg-transparent text-emerald-600 border-[1px] border-emerald-600 px-4 py-2 text-md font-semibold rounded-md hover:bg-emerald-600 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out cursor-pointer"
             >
               Télécharger CV

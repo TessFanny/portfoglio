@@ -15,7 +15,7 @@ import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
   return (
-    <section className=" py-20 align-element  ">
+    <section className=" py-20 align-element   ">
       <SectionTitle text="stack technique" />
       <div className=" py-16 md:py-48 grid gap-8 grid-cols-2  md:grid-cols-4 lg:grid-cols-5">
         <SkillsCard

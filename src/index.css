@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@300;400;500;700;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 
 @layer components{
     .nav-element-sm{
@@ -32,7 +33,7 @@ html{
 body{
     background-color: #181729;
     font-family: 'Roboto', sans-serif;
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }

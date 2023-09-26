@@ -81,19 +81,29 @@ const Navbar = () => {
       <nav className=" md:block hidden shadow-xl fixed w-full bg-[#181729] top-0 right-0  border-gray-700 py-4 z-10">
         <ul className="flex justify-end gap-10 mr-10 items-center">
           <li className="nav-element">
-            <NavLink to="/">Accueil</NavLink>
+            <NavLink to="/"  className={({ isActive }) =>
+            isActive ? 'text-yellow-500 font-bold' : undefined
+          }>Accueil</NavLink>
           </li>
           <li className="nav-element">
-            <NavLink to="/about">à propos</NavLink>
+            <NavLink className={({ isActive }) =>
+            isActive ? 'text-yellow-500 font-bold' : undefined
+          } to="/about">à propos</NavLink>
           </li>
           <li className="nav-element">
-            <NavLink to="/skills">Compétences</NavLink>
+            <NavLink className={({ isActive }) =>
+            isActive ? 'text-yellow-500 font-bold' : undefined
+          } to="/skills">Compétences</NavLink>
           </li>
           <li className="nav-element">
-            <NavLink to="/projects">Mes Projets</NavLink>
+            <NavLink className={({ isActive }) =>
+            isActive ? 'text-yellow-500 font-bold' : undefined
+          } to="/projects">Mes Projets</NavLink>
           </li>
           <li className="nav-element">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink className={({ isActive }) =>
+            isActive ? 'text-yellow-500 font-bold' : undefined
+          } to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>

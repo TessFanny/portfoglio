@@ -5,7 +5,7 @@ import SectionTitle from "./SectionTitle";
 const About = () => {
   return (
     <motion.section
-      className="py-20 align-element"
+      className="py-20 align-element h-screen "
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
@@ -30,7 +30,7 @@ const About = () => {
         </article>
         <img
           src="src/assets/images/about.svg"
-          className=" w-full h-64 md:h-full"
+          className=" w-full h-64 md:h-full hidden md:block"
         />
       </div>
     </motion.section>

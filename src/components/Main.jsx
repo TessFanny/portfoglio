@@ -24,7 +24,7 @@ const Main = () => {
       viewport={{ once: true }}
     >
     
-      <div className=" align-element grid md:grid-cols-2 items-center gap-8">
+      <div className=" align-element grid md:grid-cols-2 items-center gap-8 px-4">
       <article className="flex md:justify-start justify-center">
           <img
             src="src/assets/images/profile.jpg"
@@ -67,7 +67,7 @@ const Main = () => {
             <strong>React</strong> et <strong>Node.js</strong>.
           </p>
           <p className=" mt-2 text-lg text-white">
-            Mes objectif sont: apprendre, évoluer et contribuer de manière
+            Mes objectifs sont: apprendre, évoluer et contribuer de manière
             significative aux projets sur lesquels je travaille.
           </p>
           <div className=" flex gap-x-4 mt-10">

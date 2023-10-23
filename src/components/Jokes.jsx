@@ -2,43 +2,43 @@ import React, { useState } from "react";
 const jokes = [
   {
     question: "Pourquoi les développeurs détestent-ils la nature ?",
-    answer: " Parce que c'est sans version !",
+    answer: " Parce que c'est sans version ! 😂",
   },
   {
     question: "Combien de développeurs faut-il pour changer une ampoule ?",
-    answer: "  Aucun, c'est un problème Hardware",
+    answer: "  Aucun, c'est un problème Hardware 😂",
   },
   {
     question: "Comment un développeur se fait-il un sandwich ? ",
-    answer: " sudo make me a sandwich",
+    answer: " sudo make me a sandwich 😂",
   },
   {
     question: "Pourquoi les développeurs détestent-ils la plage ? ",
-    answer: "À cause du soleil, du sable et des bugs",
+    answer: "À cause du soleil, du sable et des bugs😂",
   },
   {
     question: "Quel est le plat préféré d'un développeur ? ",
-    answer: `Les "bits" à la sauce "octet"`,
+    answer: `Les "bits" à la sauce "octet " 😂`,
   }
   ,
   {
     question: "Pourquoi le développeur était-il si bon au football ?",
-    answer: `Parce qu'il était excellent pour manipuler les balises.`,
+    answer: `Parce qu'il était excellent pour manipuler les balises. 😂`,
   }
   ,
   {
     question: "Quel est le comble pour un développeur web ? ",
-    answer: `De ne pas avoir de support.`,
+    answer: `De ne pas avoir de support. 😂`,
   }
   ,
   {
     question: "Quelle est la manière orientée objet de devenir riche ?",
-    answer: `L'héritage`,
+    answer: `L'héritage 😂`,
   }
   ,
   {
     question: "Comment un développeur tente-t-il de réparer sa voiture lorsqu'elle a un problème ?",
-    answer: `Il sort de la voiture, ferme toutes les fenêtres, retourne dans la voiture, et essaie de redémarrer.`,
+    answer: `Il sort de la voiture, ferme toutes les fenêtres, retourne dans la voiture, et essaie de redémarrer. 😂`,
   }
 ]
 

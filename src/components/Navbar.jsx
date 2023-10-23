@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {nav ? (
         <motion.ul
-          className="fixed top-0 right-0 w-[75%] transition-all duration-300 h-[40%] bg-emerald-600  flex flex-col justify-center items-start z-20  gap-y-4 rounded-bl-xl"
+          className="fixed top-0 right-0 w-[75%] transition-all duration-300 h-[40%] bgColor  flex flex-col justify-center items-start z-20  gap-y-4 rounded-bl-xl"
           initial={{ opacity:0 }}
           animate={{ opacity:1  }}
           transition={{ duration: 1 }}

@@ -5,7 +5,7 @@ const ProjectItem = ({ item }) => {
   
   return (
     <motion.article
-      className={`h-auto w-full  my-5 flex md:items-center md:justify-between gap-7 flex-col border-[#492c8d] [&:not(:last-child)]:border-b-[2px]  pb-5 gap-y-8 md:flex-row
+      className={`h-auto w-full  my-5 flex md:items-center md:justify-between gap-7 flex-col border-[#492c8d] [&:not(:last-child)]:border-b-[2px]  pb-5 gap-y-8 md:flex-row 
        `}
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
@@ -20,7 +20,7 @@ const ProjectItem = ({ item }) => {
         <img
           src={item.img}
           alt="image du projet"
-          className=" w-[70%] object-cover rounded-lg hover:scale-110 transition duration-300 ease-in-out"
+          className=" w-[70%] object-cover rounded-lg hover:scale-110 transition duration-300 ease-in-out shadow-2xl"
         />
         </a>
         

@@ -30,7 +30,7 @@ const Projects = () => {
         J'ai realisé l'API qui a servi à afficher les données sur la page;
         `,
         stack:
-        "NodeJs - Express Js - JWT - Swagger - React - reduxToolkit - Chakra-UI - PostgreSQL",
+        "NodeJs - Express Js - JWT - Swagger - React - ReduxToolkit - Chakra-UI - PostgreSQL",
       img: "src/assets/images/devboard.png",
     },
     {
@@ -41,8 +41,8 @@ const Projects = () => {
       description:
         "Mon portfoglio, construit en responsive design avec une approche mobile-first, offre une présentation claire de mes projets et compétences; Il s'adapte à tous les écrans. ne manquez pas d'explorer le site pour avoir un apreçu de mes réalisations et des mes capacités en développement web.",
         stack:
-        "React- TailwindCSS",
-      img: "src/assets/code_img.jfif",
+        "React - TailwindCSS",
+      img: "src/assets/images/portfoglio.png",
     },
   ];
 

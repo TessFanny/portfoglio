@@ -8,6 +8,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import { ToastContainer } from "react-toastify";
+import Mentions from "./components/Mentions";
+import Confidentialite from "./components/Confidentialite";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +21,9 @@ function App() {
         <Route path="/work" element={<Work />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/mentions" element={<Mentions />} />
+        <Route path="/confidentialite" element={<Confidentialite />} />
+        <Route path="*" element={<Error/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>

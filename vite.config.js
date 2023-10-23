@@ -4,9 +4,9 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // optimizeDeps: {
-  //   include: ['linked-dep'],
-  // },
+  optimizeDeps: {
+    include: ['linked-dep'],
+  },
   build: {
     rollupOptions: {
       input: "src/main.jsx",

@@ -3,35 +3,35 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         name: "Html",
-        img: 'public/images/html.png'
+        img: '/images/html.png'
     },
     {
         name: "Css",
-        img: 'public/images/css.png'
+        img: '/images/css.png'
     },
     {
         name: "Javascript",
-        img: 'public/images/js.png'
+        img: '/images/js.png'
     },
     {
         name: "NodeJs",
-        img: 'public/images/nodejs.png'
+        img: '/images/nodejs.png'
     },
     {
         name: "PostgreSql",
-        img: 'public/images/postgresql.png'
+        img: '/images/postgresql.png'
     },
     {
         name: "Express",
-        img: 'public/images/express.png'
+        img: '/images/express.png'
     },
     {
         name: "React",
-        img: 'public/images/react.png'
+        img: '/images/react.png'
     },
     {
         name: "Git",
-        img: 'public/images/git.png'
+        img: '/images/git.png'
     },
   
 

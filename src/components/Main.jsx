@@ -17,15 +17,23 @@ import { Link } from "react-router-dom";
 const Main = () => {
   return (
     <motion.div
-      className=" md:pt-[13rem] pt-[8rem] "
+      className=" md:pt-[15rem] pt-[8rem]  md:pb-[12rem] "
       initial={{ opacity: 0, scale: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
+    
       <div className=" align-element grid md:grid-cols-2 items-center gap-8">
+      <article className="flex md:justify-start justify-center">
+          <img
+            src="src/assets/images/profile.jpg"
+            alt=""
+            className="  h-[15rem] w-[15rem] md:h-[25rem]  md:w-[25rem] rounded-full"
+          />
+        </article>
         <article>
-          <h1 className=" text-4xl font-bold tracking-wider text-emerald-600">
+          <h1 className=" text-4xl font-bold tracking-wider text-slate-500">
             Tessikoue Fanny 
           </h1>
           <p className=" mt-4 text-2xl text-white capitalize">
@@ -48,7 +56,7 @@ const Main = () => {
               wrapper="div"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: ".9em", paddingLeft: "5px", color: "rgb(234 179 8)" }}
+              style={{ fontSize: ".9em", paddingLeft: "5px", color: "#f27c6d" }}
             />
           </p>
 
@@ -65,21 +73,21 @@ const Main = () => {
           <div className=" flex gap-x-4 mt-10">
             <a href="#" >
               <FaGithubSquare
-                color="#059669"
+                color="#f27c6d"
                 size={40}
                 className="hover:scale-110 duration-300"
               />
             </a>
             <a href="#">
               <FaLinkedin
-                color="#059669"
+                color="#f27c6d"
                 size={40}
                 className="hover:scale-110 duration-300"
               />
             </a>
             <a href="#">
               <FaSquareXTwitter
-                color="#059669"
+                color="#f27c6d"
                 size={40}
                 className="hover:scale-110 duration-300"
               />
@@ -88,7 +96,7 @@ const Main = () => {
             href=""
               target="_blank"
               download="src/assets/images/CV_Tessikoue_Fanny.pdf"
-              className=" bg-transparent text-emerald-600 border-[1px] border-emerald-600 px-4 py-2 text-md font-semibold rounded-md hover:bg-emerald-600 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out cursor-pointer"
+              className=" bg-transparent textColor border-[1px] border-[#f27c6d] px-4 py-2 text-md font-semibold rounded-md hover:bgColor hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out cursor-pointer"
             >
               Télécharger CV
             </a>
@@ -105,13 +113,7 @@ const Main = () => {
             </Link>
           </div>
         </article>
-        <article className=" hidden md:block">
-          <img
-            src="src/assets/images/main.svg"
-            alt=""
-            className="h-[35rem] mx-auto pb-28"
-          />
-        </article>
+        
       </div>
     </motion.div>
   );

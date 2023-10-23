@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import SectionTitle from "./SectionTitle";
+import Jokes from "./Jokes";
 const About = () => {
   return (
     <motion.section
@@ -12,26 +13,29 @@ const About = () => {
       viewport={{ once: true }}
     >
       <SectionTitle text="à propos" />
-      <div className=" align-element grid md:grid-cols-2 items-center gap-16">
-        
+      <div className=" align-element grid md:grid-cols-2 items-center gap-5 justify-center text-slate-400 md:mt-20">
         <article>
-          <p className=" text-white mt-8 leading-loose">
-          
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde
-            quaerat id sint veniam non voluptate excepturi aspernatur
-            dignissimos eius. Totam!
+          <p className="  mt-2 leading-loose">
+            Je m'appelle Tessikoue Fanny, j'ai découvert le code il y a à peu
+            près 3 ans et depuis lors je n'ai cessé de me former en autodidacte;
           </p>
-          <p>
-           
+          <p className="mt-2 leading-loose">
+            A Coeur d'en faire une carrière, j'ai décidé de me reconvertir dans
+            le domaine du développement web en passant par l'école O'clock;
+          </p>
+          <p className="  mt-2 leading-loose">
+            Ce qui me définit le plus c'est la spontanéité, l'assiduité, la
+            courtoisie, la conscience professionnelle, l'autonomie et la
+            curiosité
+          </p>
+          <p className="  mt-2 leading-loose">
             Je suis extremement motivée et j'ai hâte de mettre à profit mon
             expérience et mes compétences au service de mes futurs
             collaborateurs
           </p>
         </article>
-        <img
-          src="src/assets/images/about.svg"
-          className=" w-full h-64 md:h-full hidden md:block"
-        />
+
+        <Jokes />
       </div>
     </motion.section>
   );

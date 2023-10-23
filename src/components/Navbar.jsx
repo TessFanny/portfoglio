@@ -82,27 +82,27 @@ const Navbar = () => {
         <ul className="flex justify-end gap-10 mr-10 items-center">
           <li className="nav-element">
             <NavLink to="/"  className={({ isActive }) =>
-            isActive ? 'text-yellow-500 font-bold' : undefined
+            isActive ? 'textColor font-bold' : undefined
           }>Accueil</NavLink>
           </li>
           <li className="nav-element">
             <NavLink className={({ isActive }) =>
-            isActive ? 'text-yellow-500 font-bold' : undefined
+            isActive ? 'textColor font-bold' : undefined
           } to="/about">à propos</NavLink>
           </li>
           <li className="nav-element">
             <NavLink className={({ isActive }) =>
-            isActive ? 'text-yellow-500 font-bold' : undefined
+            isActive ? 'textColor font-bold' : undefined
           } to="/skills">Compétences</NavLink>
           </li>
           <li className="nav-element">
             <NavLink className={({ isActive }) =>
-            isActive ? 'text-yellow-500 font-bold' : undefined
+            isActive ? 'textColor font-bold' : undefined
           } to="/projects">Mes Projets</NavLink>
           </li>
           <li className="nav-element">
             <NavLink className={({ isActive }) =>
-            isActive ? 'text-yellow-500 font-bold' : undefined
+            isActive ? 'textColor font-bold' : undefined
           } to="/contact">Contact</NavLink>
           </li>
         </ul>

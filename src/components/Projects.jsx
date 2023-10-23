@@ -5,43 +5,57 @@ import coding from "../assets/coding.jfif";
 import images from "../assets/images.jfif";
 import work from "../assets/work.jfif";
 import SectionTitle from "./SectionTitle";
+
 const Projects = () => {
   const data = [
-    { index:1,
+    {
+      index: 1,
       title: "Bug tracker",
-      link: "https://github.com/TessFanny/bug-tracker",
+      gitHubLink: "https://github.com/TessFanny/bug-tracker",
+      projectLink: "https://bug-tracker-4gae.onrender.com",
       description:
-        " Cette application a été développée en utilisant Node.js pour le backend et React pour le frontend. Elle vous permet de suivre les problèmes, les bogues de développement de vos projets.",
-      img: "src/assets/coding.jfif",
+        " Bug Tracker est une application qui vous permet d'organiser, de suivre, de gérer et de résoudre les problèmes, les bogues qui se produisent au cours du développement de vos projets. ",
+        stack:
+        "NodeJs - Express Js - JWT - Swagger - React - reduxToolkit - TailwindCSS - PostgreSQL",
+      img: "src/assets/images/bugtracker.png",
     },
     {
-      index:2,
-      title: "Portfoglio",
-      link: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
+      index: 2,
+      title: "DevBoard",
+      gitHubLink: "https://github.com/TessFanny/devBoard_back",
+      projectLink: "https://devboard-v7yt.onrender.com",
       description:
-        "Le projet consiste à créer un tableau de bord pour les développeurs, qui leur fournira une aide pratique pour gérer leur veille technologique",
-      img: "src/assets/code_img.jfif",
+        `DevBoard est un tableau de bord pour les développeurs, qui leur fournit une aide pratique pour gérer leur veille technologique.
+        Développé lors de ma formation chez O'clock en un mois en équipe de cinq personnes avec chacun un rôle;
+        J'ai realisé l'API qui a servi à afficher les données sur la page;
+        `,
+        stack:
+        "NodeJs - Express Js - JWT - Swagger - React - reduxToolkit - Chakra-UI - PostgreSQL",
+      img: "src/assets/images/devboard.png",
     },
     {
-      index:3,
+      index: 3,
       title: "Portfoglio",
-      link: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
+      gitHubLink: "https://github.com/TessFanny/portfoglio",
+      projectLink: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
       description:
-        "Le projet consiste à créer un tableau de bord pour les développeurs, qui leur fournira une aide pratique pour gérer leur veille technologique",
+        "Mon portfoglio, construit en responsive design avec une approche mobile-first, offre une présentation claire de mes projets et compétences; Il s'adapte à tous les écrans. ne manquez pas d'explorer le site pour avoir un apreçu de mes réalisations et des mes capacités en développement web.",
+        stack:
+        "React- TailwindCSS",
       img: "src/assets/code_img.jfif",
     },
   ];
 
   return (
-    <div className="py-20 align-element">
+    <section className="py-20 align-element">
       <SectionTitle text=" Mes projets" />
-    
+
       <div className="grid gap-8 md:px-20  py-5">
         {data.map((item, idx) => (
-          <ProjectItem key={idx} item={item}  />
+          <ProjectItem key={idx} item={item} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

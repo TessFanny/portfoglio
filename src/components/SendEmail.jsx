@@ -74,7 +74,7 @@ export const SendEmail = () => {
           placeholder='Votre message...'
           className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
         />
-        <input type="submit" value="ENVOYER"className=" w-full bg-transparent mt-3 text-emerald-600 border-[1px] border-emerald-600 px-4 py-2 text-md font-semibold rounded-md hover:bg-emerald-600 hover:scale-102  hover:text-[#181729] duration-300 delay-200 ease-in-out" />
+        <input type="submit" value="ENVOYER"className=" cursor-pointer w-full bg-transparent mt-3 textColor border-[1px] border-[#f27c6d] px-4 py-2 text-md font-semibold rounded-md hover:bgColor hover:scale-102  hover:text-[#181729] duration-300 delay-200 ease-in-out" />
         <ToastContainer position="top-center" />
       </div>
       

@@ -1,17 +1,19 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build', // Specify the output folder
+    outDir: "build", // Specify the output folder
   },
   server: {
-    host: true
+    host: true,
   },
   rollupOptions: {
-    input: 'src/main.jsx',
-    
-  }
-})
+    input: "src/main.jsx",
+  },
+  optimizeDeps: {
+    include: ["esm-dep > cjs-dep"],
+  },
+});

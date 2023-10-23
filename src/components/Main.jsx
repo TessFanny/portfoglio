@@ -28,7 +28,7 @@ const Main = () => {
       <article className="flex md:justify-start justify-center">
           <img
             src="/images/profile.jpg"
-            alt=""
+            alt="photo de profil"
             className="  h-[15rem] w-[15rem] md:h-[25rem]  md:w-[25rem] rounded-full"
           />
         </article>

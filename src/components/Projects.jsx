@@ -33,7 +33,7 @@ const Projects = () => {
       index: 3,
       title: "Portfoglio",
       gitHubLink: "https://github.com/TessFanny/portfoglio",
-      projectLink: "https://github.com/O-clock-Moai/projet-07-devBoard-front",
+      projectLink: "https://portfoglio.netlify.app",
       description:
         "Mon portfoglio, construit en responsive design avec une approche mobile-first, offre une présentation claire de mes projets et compétences; Il s'adapte à tous les écrans. ne manquez pas d'explorer le site pour avoir un apreçu de mes réalisations et des mes capacités en développement web.",
         stack:

@@ -27,7 +27,7 @@ const Main = () => {
       <div className=" align-element grid md:grid-cols-2 items-center gap-8 px-4">
       <article className="flex md:justify-start justify-center">
           <img
-            src="src/assets/images/profile.jpg"
+            src="/src/assets/images/profile.jpg"
             alt=""
             className="  h-[15rem] w-[15rem] md:h-[25rem]  md:w-[25rem] rounded-full"
           />

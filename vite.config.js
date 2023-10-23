@@ -4,16 +4,17 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // optimizeDeps: {
+  //   include: ['linked-dep'],
+  // },
   build: {
-    outDir: "build", // Specify the output folder
+    rollupOptions: {
+      input: "src/main.jsx",
+    },
+    // commonjsOptions: {
+    //   include: [/linked-dep/, /node_modules/],
+    // },
   },
-  server: {
-    host: true,
-  },
-  rollupOptions: {
-    input: "src/main.jsx",
-  },
-  optimizeDeps: {
-    include: ["esm-dep > cjs-dep"],
-  },
+
+
 });

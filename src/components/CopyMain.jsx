@@ -31,13 +31,13 @@ const Main = () => {
         <div className=" flex justify-between md:flex-col mt-6">
           <h2 className=" font-bold mt-3 md:hidden">Accueil</h2>
           <img
-            src="src/assets/images/photo_fanny.jpeg"
+            src="public/images/photo_fanny.jpeg"
             alt="photo de profile fanny"
             className=" h-[125px] w-[125px] shadow-md shadow-white hidden md:block"
           />
           <a
             target="_blank"
-            download="src/assets/images/cv_web_dev_Tessikoue.pdf"
+            download="public/images/cv_web_dev_Tessikoue.pdf"
             className=" bg-transparent text-emerald-600 border-[1px] border-[#50b0e5] px-8 py-2 text-md font-semibold rounded-md hover:bg-slate-500 hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out"
           >
             Télécharger CV
@@ -59,7 +59,7 @@ const Main = () => {
         <div className=" flex flex-col md:flex-row items-center py-5 md:justify-evenly">
           <div className=" w-full md:w-auto">
             <img
-              src="src/assets/images/photo_fanny.jpeg"
+              src="public/images/photo_fanny.jpeg"
               alt="photo de profile fanny"
               className=" h-[125px] w-[125px]  shadow-xl rounded-full md:hidden"
             />

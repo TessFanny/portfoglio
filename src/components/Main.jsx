@@ -27,7 +27,7 @@ const Main = () => {
       <div className=" align-element grid md:grid-cols-2 items-center gap-8 px-4">
       <article className="flex md:justify-start justify-center">
           <img
-            src="./src/assets/images/profile.jpg"
+            src="./public/images/profile.jpg"
             alt=""
             className="  h-[15rem] w-[15rem] md:h-[25rem]  md:w-[25rem] rounded-full"
           />
@@ -95,7 +95,7 @@ const Main = () => {
             <a
             href=""
               target="_blank"
-              download="src/assets/images/CV_Tessikoue_Fanny.pdf"
+              download="public/images/CV_Tessikoue_Fanny.pdf"
               className=" bg-transparent textColor border-[1px] border-[#f27c6d] px-4 py-2 text-md font-semibold rounded-md hover:bgColor hover:scale-110  hover:text-[#181729] duration-300 delay-200 ease-in-out cursor-pointer"
             >
               Télécharger CV

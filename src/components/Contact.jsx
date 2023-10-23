@@ -18,7 +18,7 @@ const Contact = () => {
         <SendEmail />
         <div className=" hidden md:block">
           <img
-            src="src/assets/images/contact.svg"
+            src="public/images/contact.svg"
             className=" w-full h-64 md:h-full"
           />
         </div>

@@ -17,7 +17,7 @@ const Projects = () => {
         " Bug Tracker est une application qui vous permet d'organiser, de suivre, de gérer et de résoudre les problèmes, les bogues qui se produisent au cours du développement de vos projets. ",
         stack:
         "NodeJs - Express Js - JWT - Swagger - React - reduxToolkit - TailwindCSS - PostgreSQL",
-      img: "/src/assets/images/bugtracker.png",
+      img: "./src/assets/images/bugtracker.png",
     },
     {
       index: 2,
@@ -31,7 +31,7 @@ const Projects = () => {
         `,
         stack:
         "NodeJs - Express Js - JWT - Swagger - React - ReduxToolkit - Chakra-UI - PostgreSQL",
-      img: "/src/assets/images/devboard.png",
+      img: "./src/assets/images/devboard.png",
     },
     {
       index: 3,
@@ -42,7 +42,7 @@ const Projects = () => {
         "Mon portfoglio, construit en responsive design avec une approche mobile-first, offre une présentation claire de mes projets et compétences; Il s'adapte à tous les écrans. ne manquez pas d'explorer le site pour avoir un apreçu de mes réalisations et des mes capacités en développement web.",
         stack:
         "React - TailwindCSS",
-      img: "/src/assets/images/portfoglio.png",
+      img: "./src/assets/images/portfoglio.png",
     },
   ];
 

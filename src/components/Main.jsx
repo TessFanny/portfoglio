@@ -71,27 +71,21 @@ const Main = () => {
             significative aux projets sur lesquels je travaille.
           </p>
           <div className=" flex gap-x-4 mt-10">
-            <a href="#" >
+            <a href="https://github.com/TessFanny" >
               <FaGithubSquare
                 color="#f27c6d"
                 size={40}
                 className="hover:scale-110 duration-300"
               />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/fanny-tessikoue/">
               <FaLinkedin
                 color="#f27c6d"
                 size={40}
                 className="hover:scale-110 duration-300"
               />
             </a>
-            <a href="#">
-              <FaSquareXTwitter
-                color="#f27c6d"
-                size={40}
-                className="hover:scale-110 duration-300"
-              />
-            </a>
+           
             <a
             href=""
               target="_blank"

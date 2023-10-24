@@ -8,7 +8,7 @@ const Projects = () => {
       index: 1,
       title: "Bug tracker",
       gitHubLink: "https://github.com/TessFanny/bug-tracker",
-      projectLink: "https://bug-tracker-4gae.onrender.com",
+      projectLink: "https://bugtrackertess.netlify.app",
       description:
         " Bug Tracker est une application qui vous permet d'organiser, de suivre, de gérer et de résoudre les problèmes, les bogues qui se produisent au cours du développement de vos projets. ",
         stack:

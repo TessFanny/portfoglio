@@ -19,7 +19,7 @@ const Projects = () => {
       index: 2,
       title: "DevBoard",
       gitHubLink: "https://github.com/TessFanny/devBoard_back",
-      projectLink: "https://devboard-v7yt.onrender.com",
+      projectLink: "https://devboardtess.netlify.app",
       description:
         `DevBoard est un tableau de bord pour les développeurs, qui leur fournit une aide pratique pour gérer leur veille technologique.
         Développé lors de ma formation chez O'clock en un mois en équipe de cinq personnes avec chacun un rôle;

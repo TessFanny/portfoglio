@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav>
       <div
         onClick={handleNav}
-        className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer"
+        className="fixed top-4 right-4 z-[99] md:hidden cursor-pointer rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-30 border border-gray-500"
       >
         <Hamburger
           toggled={isOpen}
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {nav ? (
         <motion.ul
-          className="fixed top-0 right-0 w-[75%] transition-all duration-300 h-[40%] bgColor  flex flex-col justify-center items-start z-20  gap-y-4 rounded-bl-xl"
+          className="fixed top-[5rem] right-[10px] w-[75%] transition-all duration-300 h-[40%]  flex flex-col justify-center items-start z-20  gap-y-4 rounded-mdbg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-30 border border-gray-500 "
           initial={{ opacity:0 }}
           animate={{ opacity:1  }}
           transition={{ duration: 1 }}
